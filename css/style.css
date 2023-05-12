@@ -26,7 +26,7 @@ main {
 }
 
 .calculator {
-  width: 355px;
+  width: 360px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
