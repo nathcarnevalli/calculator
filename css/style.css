@@ -34,8 +34,9 @@ main {
 }
 
 .buttons {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(6, minmax(0, 1fr));
   justify-content: space-around;
   align-items: space-around;
   gap: 5px;
